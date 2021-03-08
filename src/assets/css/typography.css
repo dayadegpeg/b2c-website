@@ -261,7 +261,7 @@ Border Color
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--iq-primary);
+  background: linear-gradient(90deg, #fc6767 0%, #ec008c 100%) !important;
   border: 1px solid var(--iq-primary);
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

@@ -35,11 +35,18 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="menu-main-menu-container">
                   <ul id="top-menu" class="navbar-nav ml-auto">
-                    <li class="menu-item">
-                      <a href="#music">Categories</a>
-                    </li>
-                    <li class="menu-item">
+                    <li class="menu-item dd">
                       <a href="#host">Content Creators</a>
+                    </li>
+                    <li class="dropdown">
+                      <button class="dropbtn">Categories</button>
+                      <div class="dropdown-content">
+                        <a href="#music">Music</a>
+                        <a href="#life">Life Style</a>
+                        <a href="#tech">Tech</a>
+                        <a href="#comedy">Comedy</a>
+                        <a href="#auto">Automobiles</a>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -234,7 +241,6 @@
   <!-- Slider End -->
   <div class="main-content">
     <!--Now Playing Section-->
-
     <section id="iq-favorites">
       <div class="container-fluid">
         <div class="row">
@@ -284,6 +290,62 @@
                       </div>
                       <div class="live">
                         <p>Live</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Upcoming Shows Section-->
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div
+              class="iq-main-header d-flex align-items-center justify-content-between"
+            >
+              <h4 class="main-title">
+                <a>Upcoming Shows</a>
+              </h4>
+            </div>
+            <div class="favorites-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <li
+                  class="slide-item"
+                  *ngFor="let now_playing_items of now_playing"
+                >
+                  <a href="#">
+                    <div class="position-relative live-card-2">
+                      <div class="img-box">
+                        <img
+                          src="{{ now_playing_items.img }}"
+                          class="img-fluid"
+                          alt="img"
+                          style="
+                            height: 300px;
+                            object-fit: cover;
+                            object-position: top;
+                            border-radius: 5px;
+                          "
+                        />
+                      </div>
+                      <div class="content" style="text-align: center">
+                        <h5 class="mt-3">Event Name</h5>
+                        <h5 class="mt-2">Event Date and Time</h5>
+                        <div class="hover-buttons mt-2">
+                          <span class="btn btn-hover">
+                            <i
+                              class="fa fa-calendar mr-1"
+                              aria-hidden="true"
+                            ></i>
+                            Notify Me
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </a>
@@ -354,7 +416,7 @@
       </div>
     </section>
     <!-- Lifestyle section -->
-    <section id="iq-upcoming-movie">
+    <section id="life">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 overflow-hidden">
@@ -412,7 +474,7 @@
       </div>
     </section>
     <!--Tech Section-->
-    <section id="iq-upcoming-movie">
+    <section id="tech">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 overflow-hidden">
@@ -467,7 +529,7 @@
       </div>
     </section>
     <!--Comedy Section-->
-    <section id="iq-upcoming-movie">
+    <section id="comedy">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 overflow-hidden">
@@ -522,7 +584,7 @@
       </div>
     </section>
     <!--Automobiles Section-->
-    <section id="iq-upcoming-movie">
+    <section id="auto">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 overflow-hidden">
@@ -675,6 +737,59 @@
                       <h6 class="mt-2 mb-2">{{ host.alias }}</h6>
                     </div>
                   </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Calendar Section-->
+    <section id="iq-favorites">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 overflow-hidden">
+            <div
+              class="iq-main-header d-flex align-items-center justify-content-between"
+            >
+              <h4 class="main-title">
+                <a>Calendar</a>
+              </h4>
+            </div>
+            <div class="favorites-contens">
+              <ul class="favorites-slider list-inline row p-0 mb-0">
+                <li
+                  class="slide-item"
+                  *ngFor="let now_playing_items of now_playing"
+                >
+                  <a href="#">
+                    <div class="position-relative live-card-2">
+                      <div class="img-box">
+                        <img
+                          src="{{ now_playing_items.img }}"
+                          class="img-fluid"
+                          alt="img"
+                          style="border-radius: 5px"
+                        />
+                      </div>
+                      <div class="content" style="text-align: center">
+                        <h5 class="mt-3">Time and Date</h5>
+                        <div class="hover-buttons mt-2">
+                          <span class="btn btn-hover">
+                            <i
+                              class="fa fa-plus-square mr-1"
+                              aria-hidden="true"
+                            ></i>
+                            Join
+                          </span>
+                        </div>
+                      </div>
+                      <div class="calendar-time">
+                        <p>5th Feb 2021</p>
+                      </div>
+                    </div>
+                  </a>
                 </li>
               </ul>
             </div>

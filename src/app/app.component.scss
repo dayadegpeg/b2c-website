@@ -21,6 +21,17 @@ html {
   border-radius: 0px 0px 10px 10px;
 }
 
+.calendar-time {
+  position: absolute;
+  background-color: #000000b5;
+  height: 40px;
+  color: white;
+  top: 0px;
+  left: 10px;
+  padding: 5px 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+
 .live {
   position: absolute;
   height: 30px;
@@ -37,6 +48,10 @@ html {
 
 .live p {
   padding-top: 5px;
+}
+
+.live-card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .live-card:hover {
@@ -57,4 +72,61 @@ html {
   .social-footer-link {
     margin-left: 40px;
   }
+  .dd {
+    margin-left: 30px;
+    color: #d1d0cf;
+  }
+  .dropbtn {
+    color: #fff !important;
+  }
+}
+
+.dropbtn {
+  transition: all 0.3s ease-in-out;
+  background: transparent;
+  color: #d1d0cf;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: -30px;
+  background-color: #141414;
+  min-width: 160px;
+  border: 1px solid #fff;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #d1d0cf;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  cursor: pointer;
+  color: var(--iq-primary) !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  cursor: pointer;
+  color: var(--iq-primary) !important;
 }
