@@ -1,0 +1,17 @@
+/*------------- Variable ------------*/
+
+:root {
+  --iq-primary: #de0d71;
+  --iq-primary-hover: #fff;
+  --iq-light-primary: #d7d3f8;
+  --iq-secondary: #6c757d;
+  --iq-white: #ffffff;
+  --iq-black: #000000;
+  --iq-title-text: #23203c;
+  --iq-body-text: #d1d0cf;
+  --iq-body-bg: #141414;
+  --iq-bg1: #191919;
+  --iq-body-border: #393750;
+  --iq-gold: #e6c75f;
+  --iq-black: #000000;
+}
