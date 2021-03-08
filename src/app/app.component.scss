@@ -10,6 +10,22 @@ html {
   padding-bottom: 10px;
 }
 
+.content-2 {
+  padding-left: 40px;
+  text-align: left;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.content-2 p {
+  color: #000;
+}
+
+.content-2 h5 {
+  padding-top: 10px;
+  color: #de0d71;
+}
+
 .play-cat {
   position: absolute;
   background-color: #000000b5;
@@ -23,13 +39,17 @@ html {
 
 .calendar-time {
   position: absolute;
-  background-color: #000000b5;
-  height: 40px;
-  color: white;
+  height: 70px;
+  background-color: rgb(221, 191, 56);
+  color: #000;
   top: 0px;
-  left: 10px;
-  padding: 5px 30px;
-  border-radius: 0px 0px 10px 10px;
+  left: 0px;
+  padding: 5px 20px;
+}
+
+.calendar-time span {
+  font-weight: 700;
+  font-size: 26px;
 }
 
 .live {

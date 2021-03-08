@@ -770,11 +770,15 @@
                           src="{{ now_playing_items.img }}"
                           class="img-fluid"
                           alt="img"
-                          style="border-radius: 5px"
+                          style="border-radius: 5px 5px 0px 0px"
                         />
                       </div>
-                      <div class="content" style="text-align: center">
-                        <h5 class="mt-3">Time and Date</h5>
+                      <div class="content-2" style="margin-top: -18px">
+                        <h5 class="mt-3">{{ now_playing_items.category }}</h5>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Exercitationem, iusto.
+                        </p>
                         <div class="hover-buttons mt-2">
                           <span class="btn btn-hover">
                             <i
@@ -786,7 +790,10 @@
                         </div>
                       </div>
                       <div class="calendar-time">
-                        <p>5th Feb 2021</p>
+                        <p>
+                          Feb <br />
+                          <span>20</span>
+                        </p>
                       </div>
                     </div>
                   </a>
