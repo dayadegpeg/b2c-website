@@ -43,8 +43,7 @@
               "src/assets/js/bootstrap.min.js",
               "src/assets/js/slick.min.js",
               "src/assets/js/owl.carousel.min.js",
-              "src/assets/js/slick-animation.min.js",
-              "src/assets/js/custom.js"
+              "src/assets/js/slick-animation.min.js"
             ]
           },
           "configurations": {
