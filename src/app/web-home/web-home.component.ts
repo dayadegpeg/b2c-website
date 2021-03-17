@@ -54,144 +54,6 @@ export class WebHomeComponent implements OnInit {
     },
   ];
 
-  music: any = [
-    {
-      name: 'Tune Inn',
-      date: 'Hello2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_in_video3_thumbnail_web.webp',
-    },
-    {
-      name: 'Tune Inn',
-      date: 'Test2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_inn_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Tune Inn',
-      date: 'Testc2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_in_video3_thumbnail_web.webp',
-    },
-    {
-      name: 'Tune Inn',
-      date: 'bcbndc2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_inn_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Tune Inn',
-      date: 'bcbndc2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_in_video3_thumbnail_web.webp',
-    },
-    {
-      name: 'Tune Inn',
-      date: 'bcbndc2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_inn_video1_thumbnail_web.webp',
-    },
-  ];
-
-  lifestyle: any = [
-    {
-      name: 'Glam Project',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/the_glam_project_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Cosmetic Rush',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/cosmetic_rush_poster_web.webp',
-    },
-    {
-      name: 'Glam Project',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/the_glam_project_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Cosmetic Rush',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/cosmetic_rush_poster_web.webp',
-    },
-    {
-      name: 'Glam Project',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/the_glam_project_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Cosmetic Rush',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/cosmetic_rush_poster_web.webp',
-    },
-  ];
-
-  tech: any = [
-    {
-      name: 'Desi Tech Review',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/desi_tech_review_thumbnail_web.webp',
-    },
-    {
-      name: 'What The Tech',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/what_the_tech_thumbnail_web.webp',
-    },
-    {
-      name: 'Desi Tech Review',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/desi_tech_review_thumbnail_web.webp',
-    },
-    {
-      name: 'What The Tech',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/what_the_tech_thumbnail_web.webp',
-    },
-    {
-      name: 'Desi Tech Review',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/desi_tech_review_thumbnail_web.webp',
-    },
-    {
-      name: 'What The Tech',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/what_the_tech_thumbnail_web.webp',
-    },
-  ];
-
-  comedy: any = [
-    {
-      name: 'फ se Funny!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/fa_se_funny_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funnys!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/fa_se_funny_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funny!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/fa_se_funny_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funnys!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/fa_se_funny_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funny!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/fa_se_funny_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funnys!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/fa_se_funny_video1_thumbnail_web.webp',
-    },
-  ];
-
   automobiles: any = [
     {
       name: 'Upcoming Cars of 2021',
@@ -212,61 +74,6 @@ export class WebHomeComponent implements OnInit {
       name: "Car O' Clock",
       img:
         'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/car_o_clock_video1_poster_web.webp',
-    },
-    {
-      name: 'Upcoming Cars of 2021',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/car_o_clock_video2_thumbnail_web.webp',
-    },
-    {
-      name: "Car O' Clock",
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/car_o_clock_video1_poster_web.webp',
-    },
-  ];
-
-  trending: any = [
-    {
-      name: 'Tune Inn',
-      date: 'Hello2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_in_video3_thumbnail_web.webp',
-    },
-    {
-      name: 'Tune Inn',
-      date: 'Test2',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/tune_inn_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Glam Project',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/the_glam_project_video1_thumbnail_web.webp',
-    },
-    {
-      name: 'Cosmetic Rush',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/cosmetic_rush_poster_web.webp',
-    },
-    {
-      name: 'Desi Tech Review',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/desi_tech_review_thumbnail_web.webp',
-    },
-    {
-      name: 'What The Tech',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/what_the_tech_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funny!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/session-banners/fa_se_funny_thumbnail_web.webp',
-    },
-    {
-      name: 'फ se Funnys!',
-      img:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-session-banners/fa_se_funny_video1_thumbnail_web.webp',
     },
     {
       name: 'Upcoming Cars of 2021',
@@ -349,71 +156,19 @@ export class WebHomeComponent implements OnInit {
   session_automobile_opts: any = {};
   test_sess: any = [];
   promotions: any = [];
-  promotions3: any = [];
-  promotions2: any = [
-    {
-      name: 'Tune In',
-      id: '60083142f2895e2eabcc2b07',
-      banner_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/promotion-banner/tune_inn_video1_poster_mobile.webp',
-      web_banner_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-promotion-banner/tune_inn_video1_poster_web.webp',
-      description: 'Tune in',
-      tags: 'music',
-      startDate: '2021-01-20T13:33:42.470Z',
-      endDate: '2021-01-20T13:33:45.463Z',
-      liveSessionId: '6008266df2895e2eabcc2afc',
-      status: 'live',
-      banner_logo_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-promotion-logo/tune_inn_logo_white.webp',
-    },
-    {
-      name: 'What the Tech!',
-      id: '600835ecf2895e2eabcc2b08',
-      banner_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/promotion-banner/what_the_tech_video1_poster_mobile.webp',
-      web_banner_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-promotion-banner/tune_in_video3_thumbnail_web.webp',
-      description: 'What the tech promo',
-      tags: 'tech',
-      startDate: '2021-01-20T13:53:38.297Z',
-      endDate: '2021-01-20T13:53:42.586Z',
-      liveSessionId: '60082c49f2895e2eabcc2aff',
-      status: 'live',
-      banner_logo_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-promotion-logo/what_the_tech_logo.png',
-    },
-    {
-      name: 'फ se Funny!',
-      id: '600d26ad127bb106de5e8af7',
-      banner_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/promotion-banner/fa_se_funny_vide1_poster_mobile.webp',
-      web_banner_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-promotion-banner/fa_se_funny_video1_poster_web.webp',
-      description: 'The funny show',
-      tags: 'comedy, funny',
-      startDate: '2021-01-24T07:49:56.478Z',
-      endDate: '2021-01-24T07:49:58.894Z',
-      liveSessionId: '60082994f2895e2eabcc2afe',
-      status: 'live',
-      banner_logo_url:
-        'https://degpeg-file-storage.s3.ap-south-1.amazonaws.com/web-promotion-logo/F_se_funny_logo.webp',
-    },
-  ];
 
   constructor(private _hs: WebHomeService) {
-    // this.pg.pg_size = 5;
-    // this.pg.pg_no = 1;
-    // this.pg.pg_offset =
-    //   this.pg.pg_no > 1 ? (this.pg.pg_no - 1) * this.pg.pg_size : 0;
+    this.pg.pg_size = 5;
+    this.pg.pg_no = 1;
+    this.pg.pg_offset =
+      this.pg.pg_no > 1 ? (this.pg.pg_no - 1) * this.pg.pg_size : 0;
   }
 
   ngOnInit() {
-    // this.getSessionCategories();
-    // //this.getSessionCategories();
-    // this.getSessions('planned', this.pg);
-    // this.getSessions('completed', this.pg);
-    // this.getSessions('live', this.pg);
+    this.getSessionCategories();
+    this.getSessions('planned', this.pg);
+    this.getSessions('completed', this.pg);
+    this.getSessions('live', this.pg);
     this.getPromotions();
   }
 
@@ -486,96 +241,54 @@ export class WebHomeComponent implements OnInit {
     }
   }
 
-  // getSessions(session_type: string, pagination: any) {
-  //   if (session_type == 'planned') {
-  //     this._hs
-  //       .getSessionsApi(session_type, pagination)
-  //       .subscribe((response) => {
-  //         this.planned_sessions = response;
-  //       });
-  //   } else if (session_type == 'completed') {
-  //     this._hs
-  //       .getSessionsApi(session_type, pagination)
-  //       .subscribe((response) => {
-  //         this.completed_sessions = response;
-  //       });
-  //   } else if (session_type == 'live') {
-  //     this._hs
-  //       .getSessionsApi(session_type, pagination)
-  //       .subscribe((response) => {
-  //         // console.log("live sessions", response);
-  //         this.live_sessions = response;
-  //         this.new_sessions = response;
-  //         for (let session of this.live_sessions) {
-  //           if (!this.selected_catgs.includes()) {
-  //             this.selected_catgs.push(session.liveSessionCategoryId);
-  //           }
-  //         }
-  //         if (this.new_sessions.length > 0) {
-  //           this.selectedSession = this.new_sessions[0];
-  //           this.selectedSessionUrl = this.new_sessions[0].web_banner_url;
-  //         }
-  //         this.getSessionBasedOnCatgs();
-  //       });
-  //   }
-  // }
+  getSessions(session_type: string, pagination: any) {
+    if (session_type == 'planned') {
+      this._hs
+        .getSessionsApi(session_type, pagination)
+        .subscribe((response) => {
+          this.planned_sessions = response;
+        });
+    } else if (session_type == 'completed') {
+      this._hs
+        .getSessionsApi(session_type, pagination)
+        .subscribe((response) => {
+          this.completed_sessions = response;
+        });
+    } else if (session_type == 'live') {
+      this._hs
+        .getSessionsApi(session_type, pagination)
+        .subscribe((response) => {
+          // console.log("live sessions", response);
+          this.live_sessions = response;
+          this.new_sessions = response;
+          console.log(this.new_sessions);
+          for (let session of this.live_sessions) {
+            if (!this.selected_catgs.includes()) {
+              this.selected_catgs.push(session.liveSessionCategoryId);
+            }
+          }
+          if (this.new_sessions.length > 0) {
+            this.selectedSession = this.new_sessions[0];
+            this.selectedSessionUrl = this.new_sessions[0].web_banner_url;
+          }
+          this.getSessionBasedOnCatgs();
+        });
+    }
+  }
 
-  // getSessionCategories() {
-  //   this._hs.getSessionCategoriesApi().subscribe((response: any) => {
-  //     this.livesession_category = response;
-  //     this.category_slider_title = this.livesession_category[0].id;
-  //     this.filterSessionByCategory(this.category_slider_title);
-  //     if (this.livesession_category.length > 4) {
-  //       this.showNxtBtn = true;
-  //     }
-  //     if (this.livesession_category.length <= 4) {
-  //       this.showNxtBtn = false;
-  //     }
-  //   });
-  // }
-
-  // segmentChanged(event: { detail: { value: string } }) {
-  //   this.filterSessionByCategory(event.detail.value);
-  // }
-
-  // filterSessionByCategory(session_category_id: string) {
-  //   this.live_sessions = [];
-  //   this._hs
-  //     .getFilteredSessionApi(session_category_id, 'live', this.pg)
-  //     .subscribe((response) => {
-  //       this.live_sessions = response;
-  //     });
-  // }
-
-  // getSessionCategories() {
-  //   this._hs.getSessionCategoriesApi().subscribe((response: any) => {
-  //     this.livesession_category = response;
-  //     this.category_slider_title = this.livesession_category[0].id;
-  //     this.filterSessionByCategory(this.category_slider_title);
-  //   });
-  // }
-
-  // getSessions(session_type: string, pagination: any) {
-  //   if (session_type == 'planned') {
-  //     this._hs
-  //       .getSessionsApi(session_type, pagination)
-  //       .subscribe((response) => {
-  //         this.planned_sessions = response;
-  //       });
-  //   } else if (session_type == 'completed') {
-  //     this._hs
-  //       .getSessionsApi(session_type, pagination)
-  //       .subscribe((response) => {
-  //         this.completed_sessions = response;
-  //       });
-  //   } else if (session_type == 'live') {
-  //     this._hs
-  //       .getSessionsApi(session_type, pagination)
-  //       .subscribe((response) => {
-  //         this.today_live_session = response;
-  //       });
-  //   }
-  // }
+  getSessionCategories() {
+    this._hs.getSessionCategoriesApi().subscribe((response: any) => {
+      this.livesession_category = response;
+      this.category_slider_title = this.livesession_category[0].id;
+      this.filterSessionByCategory(this.category_slider_title);
+      if (this.livesession_category.length > 4) {
+        this.showNxtBtn = true;
+      }
+      if (this.livesession_category.length <= 4) {
+        this.showNxtBtn = false;
+      }
+    });
+  }
 
   getPromotions() {
     this._hs.getPromotionsApi().subscribe((response) => {
@@ -583,20 +296,20 @@ export class WebHomeComponent implements OnInit {
     });
   }
 
-  // segmentChanged(event: { detail: { value: string } }) {
-  //   this.filterSessionByCategory(event.detail.value);
-  // }
+  segmentChanged(event: { detail: { value: string } }) {
+    this.filterSessionByCategory(event.detail.value);
+  }
 
-  // filterSessionByCategory(session_category_id: string) {
-  //   this.live_sessions = [];
-  //   this._hs
-  //     .getFilteredSessionApi(session_category_id, 'live', this.pg)
-  //     .subscribe((response) => {
-  //       this.live_sessions = response;
-  //     });
-  // }
+  filterSessionByCategory(session_category_id: string) {
+    this.live_sessions = [];
+    this._hs
+      .getFilteredSessionApi(session_category_id, 'live', this.pg)
+      .subscribe((response) => {
+        this.live_sessions = response;
+      });
+  }
 
-  // registerInfluencer() {
-  //   window.open('http://' + 'app.degpeg.com/influencer/register', '_blank');
-  // }
+  registerInfluencer() {
+    window.open('http://' + 'app.degpeg.com/influencer/register', '_blank');
+  }
 }
